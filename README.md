@@ -7,9 +7,14 @@ Mongo | Node | Express | React
 # Tools:
 
 * VS Code 
-* Node 
+* Node (_check the version:_ `node -v`
 * Robo3T (database in visual perspective)
 * Postman - frontend requests to backend
 * Homebrew
 
 # Getting Started: 
+1. `brew tap mongodb/brew`
+`brew install mongodb-community`
+
+
+
