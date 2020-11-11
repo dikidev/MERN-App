@@ -17,7 +17,7 @@ Mongo | Node | Express | React
 `brew install mongodb-community`
 2. Create Database path on Mac OS Catalina
 `sudo mkdir -p /System/Volumes/Data/data/db`
-3.Find out Mac Username
+3. Find out Mac Username
 `whoami`
 4. Change Ownership in to writeonly mode for MongoDB 
 `sudo chown -R d /System/Volumes/Data/data/db `
