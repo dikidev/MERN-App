@@ -32,5 +32,20 @@ Terminal will run and then not open, CMD + N
 `mongo` and hit enter
 
 **Here are some db cmds in mongo:**
-`show dbs` 
-`brew services start mongodb-community` _adds mongoDB as services into brew system when ever needed_
+
+_adds mongoDB as services into brew system when ever needed_
+`brew services start mongodb-community` 
+
+Making a alias mongod command of:
+typing mongo in terminal should result in running command below
+`sudo mongod --dbpath /System/Volumes/Data/data/db`
+
+1. `cd`
+2. `sudo vim .zshrc`
+3. i for insert mode 
+4. `alias mongod= "mongod --dbpath /System/Volumes/Data/data/db"`
+5. Press esc :wq for write & quit
+
+
+
+
