@@ -1,10 +1,11 @@
 
 # MERN-App
 Project showcasing the MERN tech stack using Mac 
+![mern-architecture](https://user-images.githubusercontent.com/8579501/70398555-6ca69980-1a68-11ea-91fb-71fc7aa16486.png)
 
 Mongo | Node | Express | React
 
-# Tools:
+### Tools:
 
 * VS Code 
 * Node (_check the version:_ `node -v`
