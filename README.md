@@ -47,6 +47,23 @@ typing mongo in terminal should result in running command below
 4. `alias mongod= "mongod --dbpath /System/Volumes/Data/data/db"`
 5. Press esc :wq for write & quit
 
+### MAC OS
+
+# Check status
+
+`brew services list`
+
+Something like:
+
+`Name    Status  User Plist
+mongodb stopped`
+start it
+
+`brew services start mongodb`
+
+Try it again
+
+`mongo or mongo --port 27017`
 
 
 
