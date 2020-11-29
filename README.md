@@ -23,6 +23,7 @@ Mongo | Node | Express | React
 4. Change Ownership in to writeonly mode for MongoDB 
 `sudo chown -R d /System/Volumes/Data/data/db `
 
+Potential Errors:
 
 Resolves Datapath of folder error:
 `mongod --dbpath /System/Volumes/Data/data/db` 
