@@ -67,4 +67,42 @@ Try it again
 `mongo or mongo --port 27017`
 
 
+### Mongoose Schema
+<a href="https://mongoosejs.com/docs/guide.html">Mongoose Documentation</a>
+
+Getting the id property of the user. "Virtual attributes" (as commonly defined in JS, anyway) is a property that looks like an attribute, but may be computed (via setting, getting, or both).
+
+Virtul Setters & Getters
+<a href="https://mongoosejs.com/docs/api.html#schema_Schema-virtual">Virtual field which uses salt cryptography stored securely in DB</a>
+
+<a href="">UUID</a>
+![uuid](https://cdn.journaldev.com/wp-content/uploads/2017/11/java-uuid.png.webp)
+
+#### 'npm crypto' 
+https://nodejs.org/api/crypto.html#crypto_class_hash
+
+#### All modules are created now Database Connectivity
+https://mongoosejs.com/docs/connections.html
+
+Common in JavaScript is to keep it chaining
+`myfun.run().then().catch()`
+
+`mongoose
+  .connect("mongodb://localhost:27017/test", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true
+  })
+  .then(() => {
+    console.log("DB CONNECTED");
+  });`
+  
+  
+  
+  
+
+
+
+
+
 
