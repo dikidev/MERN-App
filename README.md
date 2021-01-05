@@ -100,6 +100,11 @@ Common in JavaScript is to keep it chaining
   ![Now Server Running and DB Connected](https://user-images.githubusercontent.com/68991867/103299419-69c07300-49f4-11eb-9962-c6b24fecae0e.png)
 ``
   
+  Body Parser - I am comfortable working with json response and url encoded 
+  
+  
+  
+  
   
   
   
